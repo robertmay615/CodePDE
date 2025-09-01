@@ -192,7 +192,7 @@ def load_data(path):
         x_coordinate = np.array(f['x-coordinate'])
 
     t_min, t_max = time_min_max(t_coordinate)
-    x_min, x_max = time_min_max(x_coordinate)
+    x_min, x_max = x_coord_min_max(x_coordinate)
     return dict(
         tensor=u,
         t_coordinate=t_coordinate,
