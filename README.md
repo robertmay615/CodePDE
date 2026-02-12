@@ -8,7 +8,7 @@ The required packages are listed in `requirements.txt`, which can be installed b
 
 ### Getting started
 
-Download the data using the `data/data_download.py` script from PDEbench. Then process the data with the `data/extract_data_subsets.py` script.
+Data can be found [here](https://huggingface.co/datasets/LDA1020/codepde-data/tree/main). For each PDE, there is a development set for agent feedback and development and a test set for final evaluation.
 
 Set up the configurations in `config` and run `python main.py`.
 
